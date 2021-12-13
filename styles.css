@@ -1,75 +1,39 @@
-.maincontainer {
+* {
+    border: 4px solid blue;
+}
+.flex-container {
     display: flex;
+    height: 100vh;
     flex-direction: column;
-    min-height: 100vh;
+    border: 100px red;
 }
 
-
-.firstbox {
-    background-color: #1f2937;
+.box {
+    background: peachpuff;
+    height: 100%;
     display: flex;
     flex: 1;
+    min-width: 100vh;
 }
 
-
-.firstbox * {
+.box11 {
+    flex: 1;
     min-width: 50vh;
-    flex: 1;
 }
-
-
-.firstbox.firstbox-two {
+.box12 {
     display: flex;
-    margin: 0 auto;
-    flex-direction:row;
+    flex: 1;    
+}
+
+.links {
+    display: flex;
     flex: 1;
+    flex-direction: row;
     justify-content: center;
-
+    height: 50%;
 }
 
-.firstbox.firstbox-two p { 
-    color: white;
-    flex: 1;
-}
-.linkone {
-    color: white;
-    flex: 1;
-}
-
-.linktwo {
-    color: white;
-    flex: 1;
-}
-
-.linkthree {
-    color: white;
-    flex: 1;
-    margin: 2px red;
-
-}
-.secondbox {
-    background-color: #ffffff;
-    flex: 1;
-}
-
-.thirdbox {
-    background-color: #e5e7eb;
-    flex: 1;
-}
-
-.fourthbox {
-    background-color: #ffffff;
-    flex: 1;
-
-}
-
-.fifthbox {
-    background-color: #1f2937;
-    flex: 1;
-
-}
-
-.firstbox img {
-    height: 150px;
-    width: 400px;
+.links p{
+    color: grey;
+    width: 100%;
 }
